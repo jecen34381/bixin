@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+	<named-config name="kuke">
+	
+		<!-- 连接数据库的四项基本参数 -->
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://192.168.31.188:3306/bixin</property>
+		<property name="user">root</property>
+		<property name="password">123465</property>
+	</named-config>
+
+</c3p0-config>
